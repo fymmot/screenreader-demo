@@ -91,6 +91,7 @@ const TextInput = (props) => {
       fullWidth={fullWidth}
       autoComplete={autoComplete}
       helperText={errorState && errorText ? errorText : helperText}
+      // eslint-disable-next-line react/jsx-no-duplicate-props
       InputProps={{
         endAdornment: getIcon(),
         readOnly: readOnly

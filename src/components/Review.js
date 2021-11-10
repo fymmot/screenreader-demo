@@ -58,11 +58,6 @@ export  const Review = (props) => {
   const classes = useStyles();
   const history = useHistory();
 
-  function validateSubmit() {
-
-    history.push("/step4");
-  }
-
   return (
     <React.Fragment>
       <Typography component="div" variant="h4" align="center">
@@ -74,7 +69,7 @@ export  const Review = (props) => {
         // role="list"
         //aria-label="Your progress"
       >
-        {steps.map((label, index) => (
+        {steps.map((label) => (
           <Step
             key={label}
             // role="listitem"

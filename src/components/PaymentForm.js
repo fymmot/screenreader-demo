@@ -6,7 +6,6 @@ import Checkbox from '@material-ui/core/Checkbox';
 import TextInput from "./shared/TextInput/TextInput";
 import Button from "@material-ui/core/Button";
 import {NavLink} from "react-router-dom";
-import AddressForm from "./AddressForm";
 import makeStyles from "@material-ui/core/styles/makeStyles";
 import Stepper from "@material-ui/core/Stepper";
 import Step from "@material-ui/core/Step";
@@ -46,7 +45,7 @@ export const PaymentForm = (props) => {
         // role="list"
         //aria-label="Your progress"
       >
-        {steps.map((label, index) => (
+        {steps.map((label) => (
           <Step
             key={label}
             // role="listitem"
