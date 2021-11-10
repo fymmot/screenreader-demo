@@ -47,7 +47,7 @@ const TextInput = (props) => {
       setErrorState(false);
       setSuccessState(true);
     }
-  }
+  };
 
   const getIcon = () => {
     if (errorState) {
@@ -60,7 +60,7 @@ const TextInput = (props) => {
         <Done color="primary" />
       </InputAdornment>)
     }
-  }
+  };
 
 
 
@@ -110,7 +110,7 @@ TextInput.defaultProps = {
   fullWidth: true,
   floatingLabel: false,
   type: "text"
-}
+};
 
 TextInput.propTypes = {
   label: PropTypes.string.isRequired,

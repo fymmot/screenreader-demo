@@ -8,10 +8,8 @@ import Stepper from "@material-ui/core/Stepper";
 import Step from "@material-ui/core/Step";
 import StepLabel from "@material-ui/core/StepLabel";
 import makeStyles from "@material-ui/core/styles/makeStyles";
-import {NavigationButtons} from "./NavigationButtons";
 import {
   NavLink,
-  Link
 } from "react-router-dom";
 import Button from "@material-ui/core/Button";
 
@@ -54,7 +52,7 @@ export const AddressForm = (props) => {
         // role="list"
         //aria-label="Your progress"
       >
-        {steps.map((label, index) => (
+        {steps.map((label) => (
           <Step
             key={label}
             // role="listitem"

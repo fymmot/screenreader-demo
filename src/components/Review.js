@@ -153,6 +153,6 @@ export  const Review = (props) => {
 
     </React.Fragment>
   );
-}
+};
 
 export default Review;

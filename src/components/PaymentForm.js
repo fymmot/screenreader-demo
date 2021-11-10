@@ -133,6 +133,6 @@ export const PaymentForm = (props) => {
       </div>
     </React.Fragment>
   );
-}
+};
 export default PaymentForm;
 

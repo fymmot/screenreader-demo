@@ -1,6 +1,5 @@
 import React from 'react';
 import { ThemeProvider } from "@material-ui/core";
-import Checkout from "./components/Checkout";
 import theme from "./theme";
 import { Provider } from "react-redux";
 import { createStore } from 'redux'
